@@ -1,0 +1,55 @@
+header {
+    width: auto ;
+    height: 100vh ;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/548a177bfc52574facb3062c/pexelsphoto3591552.jpeg);
+    background-size: cover;
+    position: relative;
+}
+body {
+    margin: 0;
+}
+header h1 {
+    position: absolute;
+    right:0;
+    bottom: 10vh;
+    padding: 70px 150px 70px 40px;
+    background-color: #db545bbb;
+    color: white;
+    font-size:6rem ;
+    font-family: "Great Vibes";
+    letter-spacing: 5px;
+}
+
+#poem {
+    background-image: url(https://images.unsplash.com/photo-1455156218388-5e61b526818b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+height: 100vh;
+background-size: cover;
+border-top: 10px double black;
+
+}
+#poem div {
+    text-align: center;
+    background-color: rgba(179, 187, 245, 0.711);
+    width:fit-content;
+    margin: auto;
+    height: 100vh;
+}
+#poem h2 {
+    font-family: "DynaPuff";
+    font-size: 4rem;
+    color: wheat;
+    margin: 0;
+}
+#poem p {
+    font-size: 100% ;
+
+}
+#poem h3 {
+font-size: 35px;
+}
+#poem h4 {
+font-size: 30px;
+}
+#sec2 {
+    height: ;
+}

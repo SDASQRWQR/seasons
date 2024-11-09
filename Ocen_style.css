@@ -1,0 +1,209 @@
+header{
+background-image:url(img/autumn-patterned-background.jpg) ;
+height: 100vh;
+background-size: cover;
+display:flex ;
+background-attachment: fixed;
+}
+header h1{
+    margin: auto;
+    font-family: SCR;
+    letter-spacing: 0.6vw;
+    font-size: 9vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw snow;
+    
+
+}
+header button {
+    position: absolute;
+    top:0%;
+    left:0%;
+    opacity: 30%;
+}
+body{
+    margin: 0;
+
+}
+@font-face {
+    font-family:SCR;
+    src: url(fronts/SkrampCyr-Regular_0.ttf);
+}
+
+#pstix {
+    column-width: 300px;
+    column-rule: 1px solid brown;
+    column-gap: 30px;
+    padding: 50px;
+    font-size: 1.3vw;
+
+}
+#davtor {
+    text-align: center;
+    font-size: 1.6vw;
+
+}
+#s1 {
+    background-color: burlywood;
+    padding: 50px;
+    border-top: 2px rgb(0, 0, 0) dashed;
+    border-bottom: 2px rgb(0, 0, 0) dashed;
+}
+#s2 {
+    background-image:url(img/autumn-patterned-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+#s2 h2 {
+    text-align: center;
+    font-family: SCR;
+    text-shadow: 3px 3px 3px burlywood  ;
+    font-size: 5vw;
+    letter-spacing: 0.7vw;
+}
+#priznak {
+font-size: 2vw;
+font-weight: 600;
+
+
+}
+#contain {
+    background-color: rgba(128, 128, 128, 0.600);
+    padding: 50px;
+}
+#s3 {
+    padding: 50px;
+    border-top: 2px black dashed;
+    background-color: burlywood;
+}
+#s3 table {
+    border: 2px solid black;
+    padding: 50px;
+    font-size: 2.1vw;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    background-image:url(img/autumn-patterned-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 600;
+   border-spacing: 5px;
+   border-collapse: separate;
+    caption-side: bottom;
+}
+#s3 td {
+    text-align: center;
+    padding: 40px;
+
+}
+#s4 {
+    background-color: burlywood;
+    border-top: 2px black dashed;
+    padding: 50px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+    
+}
+#s4 caption {
+    font-family: SCR;
+    text-align: center;
+    font-size: 3vw;
+}
+#s4 table {
+    
+    border-spacing: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-image:url(img/autumn-patterned-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    font-size: 2vw;
+}
+#s4 td {
+    border:solid 2px black;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.600);
+    
+}
+#pos2 {
+    margin: 0;
+    text-align: right;
+    
+
+}
+
+#Gallery img {
+    width: 23vw;
+    height: 23vw;
+    padding: 0;
+    border:solid 5px black;
+    border-radius: 5%;
+   
+
+}
+#Gallery div {
+    display:flex;
+    justify-content:space-evenly;
+
+}
+#Gallery {
+ background-color: burlywood;
+ padding-top: 30px;
+ border-top: 2px black dashed;
+ padding-bottom: 30px;
+ text-align: center;
+ font-family: SCR;
+ letter-spacing: 1vw;
+ font-size: 3vw;
+}
+#film {
+    text-align: center;
+    padding: 10px;
+    background-color: burlywood;
+}
+#mus summary {
+    background: burlywood ;
+    padding: 20px;
+    font-size: 2vw;
+}
+.leaf {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+   
+}
+.anim {
+    animation: move 10s forwards ;
+}
+#leaf1 {
+    left: 20%;
+    animation-delay: 100ms;
+}
+
+#leaf2 {
+     left: 40%;
+     animation-delay: 50ms;
+}
+
+#leaf3 { 
+    left: 60%;
+    animation-delay: 200ms;
+}
+
+#leaf4 { 
+    left: 80%;
+    animation-delay: 20ms;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0) rotate(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(450vh) rotate(2000deg);
+        opacity: 0;
+    }
+}
